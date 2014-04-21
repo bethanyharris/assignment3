@@ -55,13 +55,9 @@ a {
 	white-space: nowrap; 
 }
 
-/* Dropdown Menu */
-
 .nav-top {
 	max-height: 0; /* makess invisible by default */
     background-color: rgb(189, 71, 42);
-    
-    /* Animation on open */
 
 	-moz-transition: all 250ms linear;
 	-o-transition: all 250ms linear;
@@ -70,12 +66,12 @@ a {
 }
 
 .nav-top[data-state="expanded"] {
-	max-height: 16em; /* max height of dropdown */
+	max-height: 15rem; /* max height of dropdown */
 }
 
 .nav-top ul { 
 	margin: 0;
-    padding: 1.5rem 0 1rem;
+    padding: 9rem 0 1rem;
     list-style-type: none;
 }
 
